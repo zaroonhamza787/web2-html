@@ -1,0 +1,69 @@
+.heading{                  /* Used in header image*/
+    width:25%;
+    height:100%;
+}
+.topnav{                  /* Used in header navbar*/
+    background-color: rgb(16, 16, 65);
+    color: white;
+    padding: 3px;
+}
+
+.topnavdrop{                  /* Used in header navbar dropdown*/
+    background-color: rgb(16, 16, 65);
+ 
+    color: white;
+    padding: 3px;
+}
+.text{                  /* Used in  section text*/
+    color: rgb(22, 22, 90);
+    font-size:35px;
+    font-style:italic;
+}
+  
+ .gh{                  /* Used in header card text*/
+   color: white;
+    height:100%;
+ }
+  .card-image{                  /* Used in card-image*/
+    height:100%;
+  }
+.section{                  /* Used in section of cards*/
+    
+   margin-left: 5%;
+    margin-right:5%;
+
+}
+.section2{                  /* Used in section of videos*/
+    background-color: rgb(236, 230, 230);
+   margin-left: 5%;
+    margin-right: 5%;
+}
+.w-100{                  /* Used in sliders*/
+    height:500px;
+ 
+}  
+
+.aws{                 /*using in awsome fonts*/
+    font-size:35px;
+    padding: 15px;
+    color:white;
+    
+  }
+  
+.p2{                         /*using in awsome fonts*/
+    font-size:20px;
+    padding: 20px;
+    color:white;
+    
+  }
+@media only screen and (max-width: 600px) {
+    .w-100{                  /* Used in slider mobile screen*/
+        height:250px;
+     
+    } 
+     
+    .heading{                  /* Used in header image mobile width*/
+        width:80%;
+        height:100%;
+    }
+      }
